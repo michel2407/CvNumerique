@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Berkshire+Swash&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/85194f7c23.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.mini.css">
+  <link rel="stylesheet" href="assets/bootstrap/js/bootstrap.mini.js">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>CV Numérique</title>
+</head>
+<body>
+  <!--background-->
+  <div id="bgLight" style="background-image: url('assets/img/IMG_2261.jpg');">
+    <!-------------En-tête---------->
+    <header id="identity">
+      <section class="img">
+        <img src="assets/img/Moi4.jpg" class="img-fluid " alt="photo de moi retouchée">
+      </section>
+      <div class="container">
+        <div class="presentation d-flex flex-column text-center m-5 p-3 border rounded-pill">
+          <section>
+            <h1>Michel GOUDE</h1>
+          </section>
+          <section>
+            <h2>Designer Web Junior</h2>
+          </section>
+        </div>
+      </div>
+    </header>
+    <!-----------Navbar------------->
+    <nav class="navbar">
+      <button type="button" name="skills">Compétences</button>
+      <button type="button" name="experiences">Expériences</button>
+      <button type="button" name="training">Foramtions & Diplômes</button>
+      <button type="button" name="Passions">Passions</button>
+      <button type="button" name="Contacts & Médias">Contacts & Medias</button>
+    </nav>
+    <!----------Niveaux de Compétences--------->
+    <h2 class=" title skillsLevel contenair-fluid text-center">Niveaux de Compétences</h2>
+    <!--HTML-->
+    <section class="row">
+      <section class="col">
+        <div class="card" style="width:10rem; height :20rem">
+          <img class="logo" src="assets/img/html.png" class="card-img-top" alt="htlm" />
+          <div class="card-body">
+            <a href="#" class="btn">Niveau</a>
+          </div>
+        </div>
+      </section>
+      <!--CSS-->
+      <section class="col">
+        <div class="card" style="width:10rem; height :20rem">
+          <img class="logo" src="assets/img/css3.png" class="card-img-top" alt="css" />
+          <div class="card-body">
+            <a href="#" class="btn">Niveau</a>
+          </div>
+        </div>
+      </section>
+      <!--JavaScript-->
+      <section class="col">
+        <div class="card" style="width:10rem; height :20rem">
+          <img class="logo" src="assets/img/JS.png" class="card-img-top" alt="JavaScript" />
+          <h5>JavaScript</h5>
+          <div class="card-body">
+            <a href="#" class="btn">Niveau</a>
+          </div>
+        </div>
+      </section>
+      <!--Bootstrap-->
+      <section class="col">
+        <div class="card" style="width:10rem; height :20rem">
+          <img class="logo" src="assets/img/Bootstrap.png" class="card-img-top" alt="bootstrap" />
+          <h5>Boot Bootstrap</h5>
+          <div class="card-body">
+            <a href="#" class="btn">Niveau</a>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!--PhotoShop-->
+    <section class="row">
+      <section class="col">
+        <div class="card" style="width:10rem; height :20rem">
+          <img class="logo" src="assets/img/ps.png" class="card-img-top" alt="PhotoShop" />
+          <h5>PhotoShop</h5>
+          <div class="card-body">
+            <a href="#" class="btn">Niveau</a>
+          </div>
+        </div>
+      </section>
+      <!--Final Cut Pro X-->
+      <section class="col">
+        <div class="card" style="width:10rem; height :20rem">
+          <img class="logo" src="assets/img/fcpx.png" class="card-img-top" alt="Final Cut Pro X">
+          <h5>Final Cut Pro X</h5>
+          <div class="card-body">
+            <a href="#" class="btn">Niveau</a>
+          </div>
+        </div>
+      </section>
+      <!--LightRoom-->
+      <section class="col">
+        <div class="card" style="width:10rem; height :20rem">
+          <img class="logo" src="assets/img/lr.png" class="card-img-top" alt="LightRoom" />
+          <h5>LightRoom</h5>
+          <div class="card-body">
+            <a href="#" class="btn">Niveau</a>
+          </div>
+        </div>
+      </section>
+      <!--Motion 5-->
+      <section class="col">
+        <div class="card" style="width:10rem; height :20rem">
+          <img class="logo" src="assets/img/motion5.png" class="card-img-top" alt="Motion 5" />
+          <h5>Motion 5</h5>
+          <div class="card-body">
+            <a href="#" class="btn">Niveau</a>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!----------Expériences------------->
+    <h2 class="title contenair-fluid text-center">Expériences</h2>
+    <section class="row">
+      <article class="col-3 skills d-flex justify-content-around">
+        <div class="card1" style="width: 18rem;">
+          <img src="assets/img/sécurité.jpg" class="card-img-top" alt="Security">
+          <div class="card-body">
+            <h5 class="card-title">Sécurité Privée et Publique</h5>
+            <p class="card-text">Veiller à la protection et la sécurité des biens et personnes.</p
+              <!-- Button trigger modal -->
+              <button type="button" class="btnInfo d-flex justify-content-around" data-toggle="modal" data-target="#exampleModal3">
+                Plus d'infos
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModal3Label">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <ul>
+                        <li>Agent de surveillance chez Oise Protection d'Octobre 2011 à Décembre 2018.
+                        </li>
+                        <li>Gendarme Adjoint Volontaire de Mars 2007 à Octobre 2011.
+                        </li>
+                        <li>Auxiliaire de Police Municipale de Creil de Novembre 2006 à Mars 2007.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <h3></h3>
+        <article class="col-3 skills d-flex justify-content-around">
+          <div class="card1" style="width: 18rem;">
+            <img src="assets/img/scan.png" class="card-img-top" alt="Security">
+            <div class="card-body">
+              <h5 class="card-title">Préparateur de Commande</h5>
+              <p class="card-text">Préparation des commandes des effectuées par les client.</p
+                <!-- Button trigger modal -->
+                <button type="button" class="btnInfo d-flex justify-content-around" data-toggle="modal" data-target="#exampleModal3">
+                  Plus d'infos
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModal3Label">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">×</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <ul>
+                          <li>Le Grand Moulin de Paris service export pour ISS à Genvillier de Janvier 2006 à Février 2006
+                          </li>
+                          <li>SP Défense pour Crit'Intérim à Uly Saint George de Septembre 2005 à Janvier 2006
+                          </li>
+                          <li>Legrand à Verneuil-en-Halatte de Décembre 2004 à Avril 2005
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="col-3 skills d-flex justify-content-around">
+            <div class="card1" style="width: 18rem;">
+              <img src="assets/img/trade.jpg" class="card-img-top" alt="Security">
+              <div class="card-body">
+                <h5 class="card-title">Vendeur traditionnel en Grandes SUrface et Commerciale</h5>
+                <p class="card-text">Vendre et des biens des services selon le souhaits des clients</p
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btnInfo d-flex justify-content-around" data-toggle="modal" data-target="#exampleModal3">
+                    Plus d'infos
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModal3Label">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <ul>
+                            <li>Vendeur traditionnel en Poissonnerie pour Cora Saint-Maximin de Juin 2005 à Septembre 2005
+                            </li>
+                            <li>Divers missions d'intérim pour Crit'Intérim d'Avril à Juin 2005
+                            </li>
+                            <li>PC City Saint-Maiximin de Juillet à Septembre 2004
+                            </li>
+                            <li>Supermarché Match à Creil pour Crit'Intérim de Juin à Juillet 2004
+                            </li>
+                            <li>Hypermarché Auchan à Nogent pedant les périodes de vacance de fêtes de fin d'année 2002, des vacances de Pâques et d'été 2003 en Poissonnerie et à la Vienoiserie.
+                            </li>
+                            <li>Divers stands sur les marchés de Creil de 1999 à 2002
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <h3></h3>
+            <article class="col-3 skills d-flex justify-content-around">
+              <div class="card1" style="width: 18rem;">
+                <img src="assets/img/fastfood.jpg" class="card-img-top" alt="Security">
+                <div class="card-body">
+                  <h5 class="card-title">Restauration Rapide</h5>
+                  <p class="card-text">Préparations et servir les plats choisi par les clients</p
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btnInfo d-flex justify-content-around" data-toggle="modal" data-target="#exampleModal3">
+                      Plus d'infos
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModal3Label">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">×</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <ul>
+                              <li>Mac Donald de Montataire de Mai 2004
+                              </li>
+                              <li>Les Fastes de Rome au Parc Astérix de Juillet à Septembre 2002
+                              </li>
+                              <li>Quick de Nogent-sur-Oise février 2001
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </section>
+            <!-------Etudes & Formations------->
+            <h2 class="title contenair-fluid text-center">Etudes & Formations</h2>
+            <section class="graduate contenair-fluid">
+              <article class="row">
+                <div class="col-3">
+                  <div class=" background2 formations">
+                    <p>Centre de formations aux numérique - La Manu de Mars à Septembre 2020</p>
+                  </div>
+                  <div class="background1">
+                    <img class="imgFormation" src="assets/img/La_manu.png" alt="">
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class=" background2 formations">
+                    <p>Ecole de Gendarmerie de Tulle, Promotion 12/07 de Mars à Juin 2007 - Obtention du diplôme de Gendarme adjoijnt Volontaire.</p>
+                  </div>
+                  <div class="background1">
+                    <img class="imgFormation1" src="assets/img/Gendarmerie.png" alt="">
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class=" background2 formations">
+                    <p>Lycée Jules Uhry, Niveau baccalauréat de Sciences et Technologie Tertiaire - Creil, session 2003/2004</p>
+                  </div>
+                  <div class="background1">
+                    <img class="imgFormation" src="assets/img/Creil.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class=" background2 formations">
+                    <p>Lycée professionnel Jean Rostand, La Forêt, BEP Comptabilité Gestion -CHANTILLY (60), sessions 2001/2002.</p>
+                  </div>
+                  <div class="background1">
+                    <img class="imgFormation" src="assets/img/Chantilly.jpg" alt="">
+                  </div>
+                </div>
+              </section>
+              <!--------Références & Passions----->
+              <h2 class="title contenair-fluid text-center">Références et Passions</h2>
+              <section>
+                <article class=" background">
+                  <ul>
+                    <li>Photographie
+                    </li>
+                    <li>Montage Photographie
+                    </li>
+                    <li>Montange Vidéos
+                    </li>
+                  </ul>
+                </article>
+              </section>
+              <!--------Contacts & Médias--------->
+              <section>
+                <h2 class="title contenair-fluid text-center">Contacts & Médias</h2>
+                <article class="">
+                  <h3>E-mail</h3>
+                  <div class="">
+                    <img src="assets/img/email.png" alt="">
+                  </div>
+                  <h3>Téléphone</h3>
+                  <div class="icons">
+                    <img src="assets/img/Tel" alt="">
+                  </div>
+                  <div class="icons">
+                    <img src="assets/img/Facebook.png" alt="">
+                    <img src="assets/img/Youtube.png" alt="">
+                    <img src="assets/img/wix.png" alt="">
+                  </div>
+                </article>
+              </section>
+              <!-----------Scripts--------->
+              <script src="assets/js/script.js"></script>
+              <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            </body>
+            </html>
