@@ -26,11 +26,11 @@
       </li>
       <li><i class="fab fa-galactic-republic"></i>
       </li>
-      <li><a href="#">Formations</a>
+      <li><a href="#graduate">Formations</a>
       </li>
       <li><i class="fab fa-galactic-republic"></i>
       </li>
-      <li><a href="#">Expériences</a>
+      <li><a href="#experiences">Expériences</a>
       </li>
       <li><i class="fab fa-galactic-republic"></i>
       </li>
@@ -192,63 +192,89 @@
     </div>
   </section>
   <!-- Formations -->
-  <section id="formations">
-  <h2>Formations</h2>
-  <div class="graduate">
-<article class="security">
-  <div class="card1" style="width: 18rem;">
-    <img src="assets/img/security.jpg" class="card-img-top" alt="security">
-    <div class="card-body">
-      <h5 class="card-title">Sécurité</h5>
-      <p class="card-text">de Novembre 2006 à Décembre 2018</p>
+  <section id="graduate">
+    <h2 class="graduateTitle">Formations</h2>
+    <div class="elementGraduate">
+      <article class="laManu">
+        <div class="text">
+          <p>Ecole du Numérique La Manu, session mars à septembre 2020</p>
+        </div>
+        <div class="img">
+          <img class="imgLaManu" src="assets/img/La_manu.png" alt="security" />
+        </div>
+      </article>
+      <article class="gendarmerie">
+        <div class="img">
+          <img class="imgGie" src="assets/img/Gendarmerie2.gif" alt="security" />
+        </div>
+        <div class="text">
+          <p>Ecole de Gendarmerie de Tulle (19), Promotion 12/07, de mars à juin 2007</p>
+        </div>
+      </article>
+      <article class="julesUhry">
+        <div class="text">
+          <p>Lycée Jules Uhry, niveau baccalauréat Sciences et Technologie Tertiaire, Action et Communication Commercial, à Creil (60), session 2003/2004</p>
+        </div>
+        <div class="img">
+          <img class="imgCreil" src="assets/img/Creil.jpg" alt="Jules Uhry" />
+        </div>
+      </article>
+      <article class="lyceeChantilly">
+        <div class="img">
+          <img class="imgChantilly" src="assets/img/Chantilly.jpg" alt="lycee Chantilly" />
+        </div>
+        <div class="text">
+          <p>Lycée Professionnel La Forêt à Chantilly, BEP Comptabilité Gestion à Chantilly (60), sessions 2001/2002</p>
+        </div>
+      </article>
     </div>
-  </div>
-  <!-- Button trigger modal -->
-<button type="button" class="btn" data-toggle="modal" data-target="#btnSecurity">
-  + d'infos
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="btnSecurity" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModal3Label">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">×</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <ul class="modale">
-          <li>Agent de Sécurité d'octobre 2011 à décembre 2018.
-          </li>
-          <li>Gendarme Adjoint Volontaire de mars 2007 à octobre 2011.
-          </li>
-          <li>Auxiliare de Police Municipale de Creil de novembre 2006 à mars 2007.
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
-</article>
-<article class="pickin">
-
-</article>
-<article class="trade">
-
-</article>
-<article class="fastFood">
-
-</article>
-  </div>
   </section>
-  <script src="assets/js/canvas.js"></script>
-  <script src="assets/js/jquery-ui.js"></script>
-  <script src="assets/js/jquery 3.5.1.js"></script>
+  <!-- Expériences -->
+  <section id="experiences">
+    <h2 class="titleExperiences">Expériences</h2>
+    <div class="elementExperiences">
+      <article class="security">
+        <div class="text">
+          <p>Agent de Sécurité d'octobre 2011 à Décembre 2018</p>
+        </div>
+        <div class="img">
+          <img class="imgElement" src="assets/img/security.jpg" alt="security" />
+        </div>
+      </article>
+      <article class="picking">
+        <div class="img">
+          <img class="imgElement" src="assets/img/picking.jpg" alt="picking">
+        </div>
+        <div class="text">
+          <p>Préparateur de Commandes de 2005 à 2006</p>
+        </div>
+      </article>
+      <article class="trade">
+        <div class="text">
+          <p>Vendeur traditionnel & Commercial de 2002 à 2005</p>
+        </div>
+        <div class="img">
+          <img class="imgElement" src="assets/img/trade.jpg" alt="trade">
+        </div>
+      </article>
+      <article class="fastFood">
+        <div class="img">
+          <img class="imgElement" src="assets/img/fastFood.jpg" alt="fastFood">
+        </div>
+        <div class="text">
+          <p>Opérateur en Restauration Rapide</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/canvas.js"></script>
+  <script src="assets/js/jquery-ui.js"></script>
+  <script src="assets/js/jquery 3.5.1.js"></script>
 </body>
 </html>

@@ -118,11 +118,13 @@ img{
   align-items: center;
   width: 10px;
   height: auto;
-  margin-top: 20px;
+  margin-top: 50px;
 }
-#formations{
+#graduate{
   background-color: black;
   color: white;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 .btn{
   display: flex;
@@ -139,4 +141,60 @@ img{
   font-size: 10px;
   color: black;
   list-style-type: armenian;
+}
+.graduateTitle{
+  color: #7F1A2D;
+  background-color: white;
+  padding: 20px;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+.titleExperiences{
+  background-color: white;
+  color: #7F1A2D;
+  padding: 20px;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+#experiences{
+background-color: #4A5A62;
+padding: 5px;
+margin-top: 50px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 150px;
+}
+.imgElement, .imgCreil{
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+.imgChantilly, .imgLaManu{
+  width: 50%;
+  height: auto;
+  padding: 30px;
+}
+.imgGie{
+  width: 150%;
+  height: auto;
+}
+.elementExperiences, .elementGraduate{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.security, .picking, .trade, .fastFood, .laManu, .gendarmerie, .julesUhry, .lyceeChantilly{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.imgChantilly, .imgLaManu, .imgChantilly, .imgLaManu, .imgGie{
+  display: flex;
+  justify-content: space-around;
 }
