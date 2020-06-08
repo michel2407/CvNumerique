@@ -1,564 +1,254 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Berkshire+Swash&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
   <script src="https://kit.fontawesome.com/85194f7c23.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.mini.css">
-  <link rel="stylesheet" href="assets/bootstrap/js/bootstrap.mini.js">
+  <link href="https://fonts.googleapis.com/css2?family=Meddon&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>CV Numérique</title>
+  <title>Cv Numérique</title>
 </head>
 <body>
-  <!--background-->
-  <div id="bgLight" style="background-image: url('assets/img/IMG_2261.jpg');">
-    <!-------------En-tête---------->
-    <header id="identity">
-      <section class="img">
-        <img src="assets/img/Moi4.jpg" class="img-fluid " alt="photo de moi retouchée">
-      </section>
-      <div class="container">
-        <div class="presentation d-flex flex-column text-center m-5 p-3 border rounded-pill">
-          <section>
-            <h1>Michel GOUDE</h1>
-          </section>
-          <section>
-            <h2>Designer Web Junior</h2>
-          </section>
-        </div>
-      </div>
-    </header>
-    <!-----------Navbar------------->
-    <nav class="navbar">
-      <button type="button" name="skills">Compétences</button>
-      <button type="button" name="experiences">Expériences</button>
-      <button type="button" name="training">Foramtions & Diplômes</button>
-      <button type="button" name="Passions">Passions</button>
-      <button type="button" name="Contacts & Médias">Contacts & Medias</button>
-    </nav>
-    <!----------Niveaux de Compétences--------->
-    <h2 class=" title skillsLevel contenair-fluid text-center">Niveaux de Compétences</h2>
-    <!--HTML-->
-    <section class="row">
-      <section class="col">
-        <div class="card" style="width:10rem; height :20rem">
-          <img class="logo" src="assets/img/html.png" class="card-img-top" alt="htlm" />
+  <!-- en tête -->
+  <section id="header">
+    <h1>Michel Goude</h1>
+    <h2>Web Designer Junior</h2>
+  </section>
+  <!-- navbar -->
+  <section>
+    <ul id="navbar">
+      <li><a href="#blockSkill">Compétences</a>
+      </li>
+      <li><i class="fab fa-galactic-republic"></i>
+      </li>
+      <li><a href="#skillLevel">Niveau de Compétences</a>
+      </li>
+      <li><i class="fab fa-galactic-republic"></i>
+      </li>
+      <li><a href="#">Formations</a>
+      </li>
+      <li><i class="fab fa-galactic-republic"></i>
+      </li>
+      <li><a href="#">Expériences</a>
+      </li>
+      <li><i class="fab fa-galactic-republic"></i>
+      </li>
+      <li><a href="#">Passions</a>
+      </li>
+      <li><i class="fab fa-galactic-republic"></i>
+      </li>
+      <li><a href="#">Contact</a>
+      </li>
+    </ul>
+  </section>
+  <!-- Compétence -->
+  <section id="blockSkill">
+    <h2 class="titleSkill">Compétences</h2>
+    <div class="row skill">
+      <article class="col">
+        <ul class="skills">
+          <li>Intégrateur HTML / CSS.
+          </li>
+          <li>Animateur stratégie Social Media.
+          </li>
+          <li>Concepteur graphiste web, print & vidéo.
+          </li>
+          <li>Analyse des besoins de clientèle.
+          </li>
+          <li>Relation Clientèle.
+          </li>
+        </ul>
+      </article>
+      <canvas id="line" width="100" height="70"></canvas>
+      <article class="col">
+        <ul class="skills">
+          <li>Etablir un rapport.
+          </li>
+          <li>Effectuer des opérations de prévention.
+          </li>
+          <li>Renseignement.
+          </li>
+          <li>Surveillance et protection des biens.
+          </li>
+        </ul>
+      </article>
+    </div>
+  </section>
+  <!-- Niveau de Compétences -->
+  <section id="skillLevel">
+    <h2 class="titleLevel">Niveau de Compétence</h2>
+    <div class="level">
+      <article class="language">
+        <!-- HTML -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/html.png" class="card-img-top" alt="html">
           <div class="card-body">
+            <h5 class="card-title">HTML</h5>
+            <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+          </div>
         </div>
-        <!-- Button trigger modal -->
-  <button type="button" class="btn" data-toggle="modal" data-target="#modalHtml">
-    Niveau
-  </button>
+        <!-- CSS -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/css3.png" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h5 class="card-title">CSS</h5>
+            <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+          </div>
+        </div>
+        <!-- Java Script -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/js.png" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h5 class="card-title">Java Script</h5>
+            <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+          </div>
+        </div>
+        <!-- PHP -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/php.png" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h5 class="card-title">PHP</h5>
+            <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+          </div>
+        </div>
+        <!-- MySQL -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/MySQL.png" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h5 class="card-title">MySQL</h5>
+            <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+          </div>
+        </div>
+      </article>
+      <article class="adobe">
+        <!-- Adobe Photoshop -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/PS.png" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h5 class="card-title">Adobe Photoshop</h5>
+            <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+          </div>
+        </div>
+        <!-- Adobe Lightroom -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/LR.png" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h5 class="card-title">Adobe Lightroom</h5>
+            <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+          </div>
+        </div>
+        <!-- Adobe XD -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/XD.png" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h5 class="card-title">Adobe XD</h5>
+            <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+          </div>
+        </div>
+        <!-- Abode Illustratos -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/Ai.png" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h5 class="card-title">Adobe Illustratos</h5>
+            <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+          </div>
+        </div>
+        <!-- Adobe Première -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/Pr.png" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h5 class="card-title">Adobe Première</h5>
+            <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+          </div>
+        </div>
+        <!-- Adobe After Effect -->
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/Ae.png" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h5 class="card-title">Adobe After Effect</h5>
+            <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+          </div>
+        </article>
+        <article class="apple">
+          <!-- Motion 5-->
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/motion5.png" class="card-img-top" alt="html">
+            <div class="card-body">
+              <h5 class="card-title">Motion 5</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+            </div>
+          </div>
+          <!-- Final Cut Pro X -->
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/fcpx.png" class="card-img-top" alt="html">
+            <div class="card-body">
+              <h5 class="card-title">Final Cut Pro X</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- Formations -->
+  <section id="formations">
+  <h2>Formations</h2>
+  <div class="graduate">
+<article class="security">
+  <div class="card1" style="width: 18rem;">
+    <img src="assets/img/security.jpg" class="card-img-top" alt="security">
+    <div class="card-body">
+      <h5 class="card-title">Sécurité</h5>
+      <p class="card-text">de Novembre 2006 à Décembre 2018</p>
+    </div>
+  </div>
+  <!-- Button trigger modal -->
+<button type="button" class="btn" data-toggle="modal" data-target="#btnSecurity">
+  + d'infos
+</button>
 
-  <!-- Modal -->
-  <div class="modal" id="modalHtml" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenteredLabel">HTML</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn" data-dismiss="modal">Close</button>
-        </div>
+<!-- Modal -->
+<div class="modal fade" id="btnSecurity" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal3Label">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul class="modale">
+          <li>Agent de Sécurité d'octobre 2011 à décembre 2018.
+          </li>
+          <li>Gendarme Adjoint Volontaire de mars 2007 à octobre 2011.
+          </li>
+          <li>Auxiliare de Police Municipale de Creil de novembre 2006 à mars 2007.
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-        </div>
-      </section>
-      <!--CSS-->
-      <section class="col">
-        <div class="card" style="width:10rem; height :20rem">
-          <img class="logo" src="assets/img/css3.png" class="card-img-top" alt="css" />
-          <div class="card-body">
-            <!-- Button trigger modal -->
-      <button type="button" class="btn" data-toggle="modal" data-target="#modalCss">
-        Niveau
-      </button>
+</div>
 
-      <!-- Modal -->
-      <div class="modal" id="modalCss" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalCenteredLabel">CSS</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-            </div>
-        </div>
-      </section>
-      <!--JavaScript-->
-      <section class="col">
-        <div class="card" style="width:10rem; height :20rem">
-          <img class="logo" src="assets/img/JS.png" class="card-img-top" alt="JavaScript" />
-          <h5>JavaScript</h5>
-          <div class="card-body">
-            <!-- Button trigger modal -->
-      <button type="button" class="btn" data-toggle="modal" data-target="#modalJavaScript">
-        Niveau
-      </button>
+</article>
+<article class="pickin">
 
-      <!-- Modal -->
-      <div class="modal" id="modalJavaScript" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalCenteredLabel">JavaScript</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-            </div>
-        </div>
-      </section>
-      <!--Bootstrap-->
-      <section class="col">
-        <div class="card" style="width:10rem; height :20rem">
-          <img class="logo" src="assets/img/Bootstrap.png" class="card-img-top" alt="bootstrap" />
-          <h5>Boot Bootstrap</h5>
-          <div class="card-body">
-            <!-- Button trigger modal -->
-      <button type="button" class="btn" data-toggle="modal" data-target="#modalBootstrap">
-        Niveau
-      </button>
+</article>
+<article class="trade">
 
-      <!-- Modal -->
-      <div class="modal" id="modalBootstrap" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalCenteredLabel">Bootstrap</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-            </div>
-        </div>
-      </section>
-    </section>
-    <!--PhotoShop-->
-    <section class="row">
-      <section class="col">
-        <div class="card" style="width:10rem; height :20rem">
-          <img class="logo" src="assets/img/ps.png" class="card-img-top" alt="PhotoShop" />
-          <h5>PhotoShop</h5>
-          <div class="card-body">
-            <!-- Button trigger modal -->
-      <button type="button" class="btn" data-toggle="modal" data-target="#modalPhotoShop">
-        Niveau
-      </button>
+</article>
+<article class="fastFood">
 
-      <!-- Modal -->
-      <div class="modal" id="modalPhotoShop" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalCenteredLabel">PhotoShop</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-            </div>
-        </div>
-      </section>
-      <!--Final Cut Pro X-->
-      <section class="col">
-        <div class="card" style="width:10rem; height :20rem">
-          <img class="logo" src="assets/img/fcpx.png" class="card-img-top" alt="Final Cut Pro X">
-          <h5>Final Cut Pro X</h5>
-          <div class="card-body">
-            <!-- Button trigger modal -->
-      <button type="button" class="btn" data-toggle="modal" data-target="#modalFinalCutProX">
-        Niveau
-      </button>
-
-      <!-- Modal -->
-      <div class="modal" id="modalFinalCutProX" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalCenteredLabel">Final Cut Pro X</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-            </div>
-        </div>
-      </section>
-      <!--LightRoom-->
-      <section class="col">
-        <div class="card" style="width:10rem; height :20rem">
-          <img class="logo" src="assets/img/lr.png" class="card-img-top" alt="LightRoom" />
-          <h5>LightRoom</h5>
-          <div class="card-body">
-            <!-- Button trigger modal -->
-      <button type="button" class="btn" data-toggle="modal" data-target="#modalLightRoom">
-        Niveau
-      </button>
-
-      <!-- Modal -->
-      <div class="modal" id="modalLightRoom" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalCenteredLabel">LightRoom</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-            </div>
-        </div>
-      </section>
-      <!--Motion 5-->
-      <section class="col">
-        <div class="card" style="width:10rem; height :20rem">
-          <img class="logo" src="assets/img/motion5.png" class="card-img-top" alt="Motion 5" />
-          <h5>Motion 5</h5>
-          <div class="card-body">
-            <!-- Button trigger modal -->
-      <button type="button" class="btn" data-toggle="modal" data-target="#modalMotion5">
-        Niveau
-      </button>
-
-      <!-- Modal -->
-      <div class="modal" id="modalMotion5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalCenteredLabel">Motion 5</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-            </div>
-        </div>
-      </section>
-    </section>
-    <!----------Expériences------------->
-    <h2 class="title contenair-fluid text-center">Expériences</h2>
-    <section class="row">
-      <article class="col-3 skills d-flex justify-content-around">
-        <div class="card1" style="width: 18rem;">
-          <img src="assets/img/sécurité.jpg" class="card-img-top" alt="Security">
-          <div class="card-body">
-            <h5 class="card-title">Sécurité Privée et Publique</h5>
-            <p class="card-text">Veiller à la protection et la sécurité des biens et personnes.</p
-              <!-- Button trigger modal -->
-              <button type="button" class="btnInfo d-flex justify-content-around" data-toggle="modal" data-target="#modalSecurity">
-                Plus d'infos
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="modalSecurity" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModal3Label">Sécurité</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <ul>
-                        <li>Agent de surveillance chez Oise Protection d'Octobre 2011 à Décembre 2018.
-                        </li>
-                        <li>Gendarme Adjoint Volontaire de Mars 2007 à Octobre 2011.
-                        </li>
-                        <li>Auxiliaire de Police Municipale de Creil de Novembre 2006 à Mars 2007.
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-        <h3></h3>
-        <article class="col-3 skills d-flex justify-content-around">
-          <div class="card1" style="width: 18rem;">
-            <img src="assets/img/scan.png" class="card-img-top" alt="Security">
-            <div class="card-body">
-              <h5 class="card-title">Préparateur de Commande</h5>
-              <p class="card-text">Préparation des commandes des effectuées par les client.</p
-                <!-- Button trigger modal -->
-                <button type="button" class="btnInfo d-flex justify-content-around" data-toggle="modal" data-target="#modalOrderPicker">
-                  Plus d'infos
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" id="modalOrderPicker" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModal3Label">Préparateur de Commande</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">×</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <ul>
-                          <li>Le Grand Moulin de Paris service export pour ISS à Genvillier de Janvier 2006 à Février 2006
-                          </li>
-                          <li>SP Défense pour Crit'Intérim à Uly Saint George de Septembre 2005 à Janvier 2006
-                          </li>
-                          <li>Legrand à Verneuil-en-Halatte de Décembre 2004 à Avril 2005
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </article>
-          <article class="col-3 skills d-flex justify-content-around">
-            <div class="card1" style="width: 18rem;">
-              <img src="assets/img/trade.jpg" class="card-img-top" alt="Security">
-              <div class="card-body">
-                <h5 class="card-title">Vendeur traditionnel en Grandes SUrface et Commerciale</h5>
-                <p class="card-text">Vendre et des biens des services selon le souhaits des clients</p
-                  <!-- Button trigger modal -->
-                  <button type="button" class="btnInfo d-flex justify-content-around" data-toggle="modal" data-target="#modalTrade">
-                    Plus d'infos
-                  </button>
-                  <!-- Modal -->
-                  <div class="modal fade" id="modalTrade" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModal3Label">Vendeur traditionnel en Grandes SUrface et Commerciale</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <ul>
-                            <li>Vendeur traditionnel en Poissonnerie pour Cora Saint-Maximin de Juin 2005 à Septembre 2005
-                            </li>
-                            <li>Divers missions d'intérim pour Crit'Intérim d'Avril à Juin 2005
-                            </li>
-                            <li>PC City Saint-Maiximin de Juillet à Septembre 2004
-                            </li>
-                            <li>Supermarché Match à Creil pour Crit'Intérim de Juin à Juillet 2004
-                            </li>
-                            <li>Hypermarché Auchan à Nogent pedant les périodes de vacance de fêtes de fin d'année 2002, des vacances de Pâques et d'été 2003 en Poissonnerie et à la Vienoiserie.
-                            </li>
-                            <li>Divers stands sur les marchés de Creil de 1999 à 2002
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn" data-dismiss="modal">Close</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-            <h3></h3>
-            <article class="col-3 skills d-flex justify-content-around">
-              <div class="card1" style="width: 18rem;">
-                <img src="assets/img/fastfood.jpg" class="card-img-top" alt="Security">
-                <div class="card-body">
-                  <h5 class="card-title">Restauration Rapide</h5>
-                  <p class="card-text">Préparations et servir les plats choisi par les clients</p
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btnInfo d-flex justify-content-around" data-toggle="modal" data-target="#modalFastFood">
-                      Plus d'infos
-                    </button>
-                    <!-- Modal -->
-                    <div class="modal fade" id="modalFastFood" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModal3Label">Restauration Rapide</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">×</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <ul>
-                              <li>Mac Donald de Montataire de Mai 2004
-                              </li>
-                              <li>Les Fastes de Rome au Parc Astérix de Juillet à Septembre 2002
-                              </li>
-                              <li>Quick de Nogent-sur-Oise février 2001
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn" data-dismiss="modal">Close</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-            </section>
-            <!-------Etudes & Formations------->
-            <h2 class="title contenair-fluid text-center">Etudes & Formations</h2>
-            <section class="graduate contenair-fluid">
-              <article class="row">
-                <div class="col-3">
-                  <div class=" background2 formations">
-                    <p>Centre de formations aux numérique - La Manu de Mars à Septembre 2020</p>
-                  </div>
-                  <div class="background1">
-                    <img class="imgFormation" src="assets/img/La_manu.png" alt="">
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class=" background2 formations">
-                    <p>Ecole de Gendarmerie de Tulle, Promotion 12/07 de Mars à Juin 2007 - Obtention du diplôme de Gendarme adjoijnt Volontaire.</p>
-                  </div>
-                  <div class="background1">
-                    <img class="imgFormation1" src="assets/img/Gendarmerie.png" alt="">
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class=" background2 formations">
-                    <p>Lycée Jules Uhry, Niveau baccalauréat de Sciences et Technologie Tertiaire - Creil, session 2003/2004</p>
-                  </div>
-                  <div class="background1">
-                    <img class="imgFormation" src="assets/img/Creil.jpg" alt="">
-                  </div>
-                </div>
-                <div class="col-3">
-                  <div class=" background2 formations">
-                    <p>Lycée professionnel Jean Rostand, La Forêt, BEP Comptabilité Gestion -CHANTILLY (60), sessions 2001/2002.</p>
-                  </div>
-                  <div class="background1">
-                    <img class="imgFormation" src="assets/img/Chantilly.jpg" alt="">
-                  </div>
-                </div>
-              </section>
-              <!--------Références & Passions----->
-              <h2 class="title contenair-fluid text-center">Références et Passions</h2>
-              <section class=" reference">
-                <article class="backgroundReference">
-                  <ul>
-                    <li class="passions">Photographie
-                    </li>
-                    <li class="passions">Montage Photographie
-                    </li>
-                    <li class="passions">Montange Vidéos
-                    </li>
-                  </ul>
-                </article class="video">
-                <article class="cuisto">
-                  <video class="cuisto" controls src="assets/vidéo/Le cuisto ambulant 2.mov" autoplay poster="cuisto">
-                  </video>
-                  <!----- La vidéo n'est pas pourvu de bande audio---->
-
-                </article>
-              </section>
-              <!--------Contacts & Médias--------->
-              <h2 class="title contenair-fluid text-center">Contacts & Médias</h2>
-              <section class="contacts container-fluid">
-                <article class="elements row row-col-6">
-                  <h3 col>E-mail</h3>
-                  <a href="mailto:mgoude@outlook.fr"> Contactez-moi </a>
-                  <img class="contactMe" src="assets/img/email.jpg" alt="email">
-                </div>
-                <h3 col>Téléphone</h3>
-                <div class="contactMail"><a href="tel:+33613740725">Contactez-moi</a>
-                  <img class="contactMe" src="assets/img/Tel.png" alt="tel">
-                </article>
-              </section>
-            </div>
-            <section class="Medias">
-              <div class="icons row row-col-4">
-                <a class="col" href="https://www.facebook.com/mgpphotoartistegraph/">Facebook</a>
-                <img class="socialNetwork" src="assets/img/Facebook.png" alt="facebook">
-                <a class="col" href="https://www.youtube.com/channel/UCUjZdapJSuiJi5DyvBgIXDw?view_as=subscriber">Youtube</a>
-                <img class="socialNetwork" src="assets/img/Youtube.png" alt="youtube">
-                <a class="col" href="https://mgp-michelgoudephoto.wixsite.com/mgp-photographe">Wix</a>
-                <img class="socialNetwork" src="assets/img/wix.png" alt="wix">
-              </div>
-            </section>
-            <!-----------Scripts--------->
-            <script src="assets/js/jquery 3.5.1.js"></script>
-            <script src="assets/js/script.js"></script>
-            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-          </body>
-          </html>
+</article>
+  </div>
+  </section>
+  <script src="assets/js/canvas.js"></script>
+  <script src="assets/js/jquery-ui.js"></script>
+  <script src="assets/js/jquery 3.5.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
